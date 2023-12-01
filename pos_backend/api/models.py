@@ -44,7 +44,7 @@ class Pedido(models.Model):
     )
     
     pedido_id = models.AutoField(primary_key=True)
-    pedido_fech = models.DateTimeField(null=True)
+    pedido_fech = models.DateTimeField(auto_now_add=True)
     pedido_nro = models.CharField(max_length=100)
     pedido_est = models.CharField(max_length=100,
                                   default='solicitado',
