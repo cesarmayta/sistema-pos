@@ -1,0 +1,84 @@
+[
+{
+  "model": "api.mesa",
+  "pk": 1,
+  "fields": {
+    "mesa_nro": "1"
+  }
+},
+{
+  "model": "api.mesa",
+  "pk": 2,
+  "fields": {
+    "mesa_nro": "2"
+  }
+},
+{
+  "model": "api.mesa",
+  "pk": 3,
+  "fields": {
+    "mesa_nro": "3"
+  }
+},
+{
+  "model": "api.categoria",
+  "pk": 1,
+  "fields": {
+    "categoria_nom": "ENTRADAS"
+  }
+},
+{
+  "model": "api.categoria",
+  "pk": 2,
+  "fields": {
+    "categoria_nom": "EXTRAS"
+  }
+},
+{
+  "model": "api.categoria",
+  "pk": 3,
+  "fields": {
+    "categoria_nom": "BEBIDAS"
+  }
+},
+{
+  "model": "api.plato",
+  "pk": 1,
+  "fields": {
+    "plato_nom": "CAUSA LIMEÑA",
+    "plato_img": "image/upload/v1701400935/axbfkwvbebuxubgcgifz.jpg",
+    "plato_pre": "10.00",
+    "categoria_id": 1
+  }
+},
+{
+  "model": "api.plato",
+  "pk": 2,
+  "fields": {
+    "plato_nom": "LOMO SALTADO",
+    "plato_img": "image/upload/v1701400966/jdpbdekagl9jwvatdarr.jpg",
+    "plato_pre": "30.00",
+    "categoria_id": 2
+  }
+},
+{
+  "model": "api.plato",
+  "pk": 3,
+  "fields": {
+    "plato_nom": "INKA KOLA",
+    "plato_img": "image/upload/v1701400985/b4xhilfmu5ypjnukfn4o.webp",
+    "plato_pre": "10.00",
+    "categoria_id": 3
+  }
+},
+{
+  "model": "api.plato",
+  "pk": 4,
+  "fields": {
+    "plato_nom": "ceviche de pescado",
+    "plato_img": "image/upload/v1701401662/igbm55gofulbq6kfsslk.png",
+    "plato_pre": "24.00",
+    "categoria_id": 2
+  }
+}
+]
